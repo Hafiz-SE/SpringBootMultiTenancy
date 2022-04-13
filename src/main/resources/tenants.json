@@ -1,0 +1,16 @@
+[
+  {
+    "tenant" : "TenantOne",
+    "dataSourceClassName": "org.postgresql.ds.PGSimpleDataSource",
+    "url": "jdbc:postgresql://127.0.0.1:5432/datasource1",
+    "user": "postgres",
+    "password": "1234"
+  },
+  {
+    "tenant": "TenantTwo",
+    "dataSourceClassName": "org.postgresql.ds.PGSimpleDataSource",
+    "url": "jdbc:postgresql://127.0.0.1:5432/datasource2",
+    "user": "postgres",
+    "password": "1234"
+  }
+]
